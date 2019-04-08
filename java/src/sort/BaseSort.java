@@ -1,17 +1,16 @@
 package sort;
 
 abstract public class BaseSort {
-    abstract void sort(Comparable[] a);
 
-    private static boolean less(Comparable v, Comparable w) {
+    static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
 
-    private static void exch(Comparable[] a, int i, int j) {
+    static void exch(Comparable[] a, int i, int j) {
         Comparable t = a[i]; a[i] = a[j]; a[j] = t;
     }
 
-    private static void show(Comparable[] a) {
+    static void show(Comparable[] a) {
         for (Comparable comparable : a) System.out.print(comparable + " ");
         System.out.println();
     }
