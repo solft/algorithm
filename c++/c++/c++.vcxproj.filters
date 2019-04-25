@@ -21,11 +21,5 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="prime.cpp">
-      <Filter>소스 파일\math</Filter>
-    </ClCompile>
-    <ClCompile Include="gcd_lcm.cpp">
-      <Filter>소스 파일\math</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
