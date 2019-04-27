@@ -22,9 +22,11 @@ public class BreadthFirstPaths {
         while(!queue.isEmpty()) {
             int v = queue.poll(); // 다음 정점 꺼내기
             for (int w : G.adj(v)) {
-                edgeTo[w] = v;
-                marked[w] = true;
-                queue.offer(w);
+                if (!marked[w]) {
+                    edgeTo[w] = v;
+                    marked[w] = true;
+                    queue.offer(w);
+                }
             }
         }
     }
@@ -40,5 +42,25 @@ public class BreadthFirstPaths {
             path.push(x);
         path.push(s);
         return path;
+    }
+
+    public static void main(String[] args) {
+
+        // 0 --- 1 --- 2
+        //       |     |
+        //       |     |
+        //       3 --- 4 --- 5
+        Graph g = new Graph(6);
+        g.addEdge(0, 1);
+        g.addEdge(1, 2);
+        g.addEdge(1, 3);
+        g.addEdge(2, 4);
+        g.addEdge(3, 4);
+        g.addEdge(4, 5);
+
+        BreadthFirstPaths bfs = new BreadthFirstPaths(g, 0);
+        System.out.println("TEST CODE");
+        var test = bfs.pathTo(5);
+        System.out.println(test);
     }
 }

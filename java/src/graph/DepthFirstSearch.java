@@ -14,7 +14,8 @@ public class DepthFirstSearch {
         marked[v] = true; // v 점을 방문하고
         count++;
         for (int w : G.adj(v)) // v의 인접 리스트를 반복하며
-            if (!marked[w]) dfs(G, w); // 방문하지 않았으면 방문ㄱ
+            if (!marked[w])
+                dfs(G, w); // 방문하지 않았으면 방문ㄱ
     }
 
     public boolean marked(int w) { // w를 방문했는지?
