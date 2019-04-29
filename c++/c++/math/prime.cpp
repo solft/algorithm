@@ -18,8 +18,8 @@ void sieve(ll upperbound) {
 		if (bs[i]) { // i가 소수라면 _sieve_size 이하의 i 배수는 모두 합성수
 			for (ll j = i * i; j <= _sieve_size; j += i)
 				bs[j] = 0;
+			primes.push_back((int)i); // 소수 목록에 추가.
 		}
-		primes.push_back((int)i); // 소수 목록에 추가.
 	}
 }
 
