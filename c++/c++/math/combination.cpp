@@ -11,14 +11,14 @@ ll combination(int x, int y) {
 	else if (dp[x][y] != 0)
 		return dp[x][y];
 	else
-		return dp[x][y] = C(x - 1, y - 1) + C(x - 1, y);
+		return dp[x][y] = combination(x - 1, y - 1) + combination(x - 1, y);
 }
 
 // 2. 높이 x짜리 파스칼의 삼각형 만들기
 ll pascalTriangle[101][101];
 void makePascal(int x) {
 	// 테두리 전부 1로 만들기
-	pascalTrianble[0][0] = 1;
+	pascalTriangle[0][0] = 1;
 	for (int i = 1; i <= x; i++) {
 		pascalTriangle[i][0] = 1;
 		pascalTriangle[i][i] = 1;

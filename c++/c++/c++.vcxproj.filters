@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\math">
+      <UniqueIdentifier>{06a80017-fc9e-47d7-9323-951717105a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graph">
+      <UniqueIdentifier>{7cc59913-d353-4760-a9a1-98ae18ed094a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="math\combination.cpp">
+      <Filter>소스 파일\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\gcd_lcm.cpp">
+      <Filter>소스 파일\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\prime.cpp">
+      <Filter>소스 파일\math</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\graph.cpp">
+      <Filter>소스 파일\graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
