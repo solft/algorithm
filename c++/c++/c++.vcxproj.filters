@@ -24,9 +24,6 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="math\combination.cpp">
-      <Filter>소스 파일\math</Filter>
-    </ClCompile>
     <ClCompile Include="math\gcd_lcm.cpp">
       <Filter>소스 파일\math</Filter>
     </ClCompile>
@@ -35,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="graph\graph.cpp">
       <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="math\combination.cpp">
+      <Filter>소스 파일\math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
