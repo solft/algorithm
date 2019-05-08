@@ -18,6 +18,7 @@ public class DirectedCycle {
                 dfs(G, v);
     }
 
+
     private void dfs(Digraph G, int v) {
         onStack[v] = true;
         marked[v] = true;
@@ -37,6 +38,7 @@ public class DirectedCycle {
         }
         onStack[v] = false;
     }
+
 
     public boolean hasCycle() {
         return cycle != null;
