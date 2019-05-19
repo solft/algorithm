@@ -36,5 +36,14 @@
     <ClCompile Include="math\combination.cpp">
       <Filter>소스 파일\math</Filter>
     </ClCompile>
+    <ClCompile Include="graph\Bellman-Ford algorithm.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\Dijkstra algorithm.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\Floyd-Warshall algorithm.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
