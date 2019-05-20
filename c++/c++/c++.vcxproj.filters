@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\graph">
       <UniqueIdentifier>{7cc59913-d353-4760-a9a1-98ae18ed094a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\seegment">
+      <UniqueIdentifier>{0002d082-f5a8-4c94-95f0-f225b6248ed0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -44,6 +47,12 @@
     </ClCompile>
     <ClCompile Include="graph\Floyd-Warshall algorithm.cpp">
       <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="union-find.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="segment-tree.cpp">
+      <Filter>소스 파일\seegment</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
