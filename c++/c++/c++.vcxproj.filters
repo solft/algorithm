@@ -54,5 +54,8 @@
     <ClCompile Include="segment-tree.cpp">
       <Filter>소스 파일\seegment</Filter>
     </ClCompile>
+    <ClCompile Include="graph\Topological-sort.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
