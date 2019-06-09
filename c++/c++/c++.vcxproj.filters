@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\seegment">
       <UniqueIdentifier>{0002d082-f5a8-4c94-95f0-f225b6248ed0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\sort">
+      <UniqueIdentifier>{b9f42982-dbc0-496f-9870-e6a0fa39f0b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="graph\Topological-sort.cpp">
       <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\Sort(insertion, selection, merge, heap, quick).cpp">
+      <Filter>소스 파일\sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
