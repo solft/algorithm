@@ -1,6 +1,6 @@
 #define NODE_SIZE 100
 int parant[NODE_SIZE];
-int rank[NODE_SIZE] = { 0, };
+int ranking[NODE_SIZE] = { 0, };
 
 int Find(int x) {
 	if (parant[x] == x) return x;
@@ -11,9 +11,9 @@ void Union(int x, int y) {
 	x = Find(x);
 	y = Find(y);
 	if (x == y) return;
-	if (rank[x] < rank[y]) parant[x] = y;
+	if (ranking[x] < ranking[y]) parant[x] = y;
 	else parant[y] = x;
-	if (rank[x] == rank[y]) rank[x]++;
+	if (ranking[x] == ranking[y]) ranking[x]++;
 }
 
 int main() {
