@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdio>
+#include <bitset>
 #include <vector>
 
 using namespace std;
