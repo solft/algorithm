@@ -42,7 +42,7 @@ void merge(vector<int>& v, int left, int mid, int right) {
 			v[i] = temp[b++];
 		else if (b > right)
 			v[i] = temp[a++];
-		else if (temp[a] < temp[b])
+		else if (temp[a] <= temp[b])
 			v[i] = temp[a++];
 		else if (temp[a] > temp[b])
 			v[i] = temp[b++];
