@@ -63,5 +63,8 @@
     <ClCompile Include="sort\Sort(insertion, selection, merge, heap, quick).cpp">
       <Filter>소스 파일\sort</Filter>
     </ClCompile>
+    <ClCompile Include="sort\String Sort(counting, radix).cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

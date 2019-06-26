@@ -1,11 +1,9 @@
 #include <iostream>
-#include <cmath>
-#include <queue>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-
 int main() {
-
+	
 }
