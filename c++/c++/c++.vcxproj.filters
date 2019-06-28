@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\sort">
       <UniqueIdentifier>{b9f42982-dbc0-496f-9870-e6a0fa39f0b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\dp">
+      <UniqueIdentifier>{1253ef70-c52f-4957-b515-dd3c6a6a2df2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="sort\String Sort(counting, radix).cpp">
       <Filter>소스 파일\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="dp\LIS.cpp">
+      <Filter>소스 파일\dp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
