@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\dp">
       <UniqueIdentifier>{1253ef70-c52f-4957-b515-dd3c6a6a2df2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\string">
+      <UniqueIdentifier>{6bf43727-224a-44ea-b7f5-f9225b8cd28b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -74,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="graph\SCC(Kosaraju%27s Algorithm).cpp">
       <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="string\KMP.cpp">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\z-algorithm.cpp">
+      <Filter>소스 파일\string</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
