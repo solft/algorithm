@@ -7,7 +7,7 @@ using namespace std;
 // a=text, b=pattern
 string text, pattern;
 vector<int> p;
-vector<int> ans;
+vector<int> costSum;
 
 void kmp() {
 	int j = 0;
@@ -16,7 +16,7 @@ void kmp() {
 			j = p[j - 1];
 		if (text[i] == pattern[j]) {
 			if (j == pattern.length() - 1) {
-				ans.push_back(i - pattern.length() + 1);
+				costSum.push_back(i - pattern.length() + 1);
 				j = p[j];
 			}
 			else
@@ -46,6 +46,6 @@ int main() {
 	for (auto k : p)
 		cout << k << '\n';
 
-	for (auto k : ans)
+	for (auto k : costSum)
 		cout << k << '\n';
 }
