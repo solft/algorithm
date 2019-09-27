@@ -1,15 +1,10 @@
 #include <iostream>
-#include <algorithm>
-#include <stack>
-#include <string>
-#include <queue>
-#include <set>
 #include <vector>
-
+#include <queue>
+#include <string>
+#include <algorithm>
 using namespace std;
-
 
 int main() {
 
-	
 }
